@@ -1,5 +1,6 @@
 .main_tittles {
-    color: purple
+    color: purple;
+    font-size: 70px;
 }
 
 .container{
@@ -13,16 +14,15 @@
     
   }
 .item1{
-    color: blue;
+    color:black;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: pink;
+    background-color: purple;
     border-style: solid;
     border-color: black;
     font-weight: bold;
-    font-size: 25px;
     gap: 20px;
     
     
@@ -32,10 +32,9 @@
     grid-row-end: 3;
     grid-column-start: 3;
     grid-column-end: 5;
-    color: blue;
-    background-color: green;
+    color:black;
+    background-color: purple;
     font-weight: bold;
-    font-size: 25px;
     border-style: solid;
     border-color: black;
     gap: 20px;
@@ -46,10 +45,9 @@
     grid-row-end: 3;
     grid-column-start: 5;
     grid-column-end: 7;
-    color: blue;
-    background-color: brown;
+    color:black;
+    background-color: purple;
     font-weight: bold;
-    font-size: 25px;
     border-style: solid;
     border-color: black;
     gap: 20px;
@@ -60,10 +58,9 @@
     grid-row-end: 3;
     grid-column-start: 7;
     grid-column-end: 9;
-    color: blue;
+    color:black;
     background-color: purple;
     font-weight: bold;
-    font-size: 25px;
     border-style: solid;
     border-color: black;
     gap: 20px;
@@ -74,12 +71,14 @@
     grid-row-end: 3;
     grid-column-start: 9;
     grid-column-end: 11;
-    color: blue;
-    background-color: yellow;
+    color:black;
+    background-color: purple;
     font-weight: bold;
-    font-size: 25px;
     border-style: solid;
     border-color: black;
     gap: 20px;
   }
 
+.gpu_name{
+  text-align: center;
+}
