@@ -1,14 +1,18 @@
 .main_tittles {
-    color: purple;
-    font-size: 70px;
+    color:rgb(177, 82, 255);
+    font-size: 50px;
 }
 
 .container{
     display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px;
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     border-style: solid;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 20px;
     
   
     
@@ -19,13 +23,21 @@
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: purple;
+    background-color: rgb(177, 82, 255);
     border-style: solid;
     border-color: black;
     font-weight: bold;
-    gap: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+
     
     
+  }
+  .seperator{
+    border-top: 8px solid black;
+    border-radius: 5px;
+    width: 20%;
+    margin-left: 80px;
   }
 .item2{
     grid-row-start: 1;
@@ -33,11 +45,12 @@
     grid-column-start: 3;
     grid-column-end: 5;
     color:black;
-    background-color: purple;
+    background-color: rgb(177, 82, 255);
     font-weight: bold;
     border-style: solid;
     border-color: black;
-    gap: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
   }
 
 .item3{
@@ -46,11 +59,13 @@
     grid-column-start: 5;
     grid-column-end: 7;
     color:black;
-    background-color: purple;
+    background-color: rgb(177, 82, 255);
     font-weight: bold;
     border-style: solid;
     border-color: black;
-    gap: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
   }
   
 .item4{
@@ -59,11 +74,12 @@
     grid-column-start: 7;
     grid-column-end: 9;
     color:black;
-    background-color: purple;
+    background-color: rgb(177, 82, 255);
     font-weight: bold;
     border-style: solid;
     border-color: black;
-    gap: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
   }
 
 .item5{
@@ -72,13 +88,11 @@
     grid-column-start: 9;
     grid-column-end: 11;
     color:black;
-    background-color: purple;
+    background-color:rgb(177, 82, 255);
     font-weight: bold;
     border-style: solid;
     border-color: black;
-    gap: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
   }
 
-.gpu_name{
-  text-align: center;
-}
