@@ -1,5 +1,5 @@
 .main_tittles {
-    color:rgb(53, 53, 53);
+    color:black;
     font-size: 50px;
     
 }
@@ -9,7 +9,6 @@
     grid-template-rows: 100px 100px;
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     background-color: rgb(53, 53, 53);
-    border-style: solid;
     gap: 50px;
     padding-top: 20px;
     padding-bottom: 20px; 
@@ -24,7 +23,7 @@
   grid-template-rows: 100px 100px 10px;
   grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
   background-color: rgb(167, 60, 100);
-  border-style: solid;
+
   gap: 50px;
   padding-top: 20px;
   padding-bottom: 20px; 
@@ -38,7 +37,7 @@
   grid-column-start: 1;
   grid-column-end: 4;
   font-weight: bold;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-left: 20px;
 }
 
@@ -48,6 +47,13 @@
   grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
   background-color: white;
 
+}
+
+.smaller-space{
+  display: grid;
+  grid-template-rows: 10px ;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  background-color: white;
 }
 
 .intro-text{
@@ -69,11 +75,10 @@
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: rgb(167, 60, 100);
-    border-style: solid;
-    border-color: black;
     font-weight: bold;
     padding-top: 10px;
     padding-left: 20px;
+    box-shadow: 3px 3px;
 
   }
 
@@ -86,10 +91,9 @@
     color:black;
     background-color: rgb(167, 60, 100);
     font-weight: bold;
-    border-style: solid;
-    border-color: black;
     padding-top: 10px;
     padding-left: 20px;
+    box-shadow: 3px 3px;
   }
 
 .item3{
@@ -100,10 +104,9 @@
     color:black;
     background-color: rgb(167, 60, 100);
     font-weight: bold;
-    border-style: solid;
-    border-color: black;
     padding-top: 10px;
     padding-left: 30px;
+    box-shadow: 3px 3px;
     
   }
   
@@ -115,10 +118,9 @@
     color:black;
     background-color: rgb(167, 60, 100);
     font-weight: bold;
-    border-style: solid;
-    border-color: black;
     padding-top: 10px;
     padding-left: 20px;
+    box-shadow: 3px 3px;
   }
 
 .item5{
@@ -129,10 +131,9 @@
     color:black;
     background-color:rgb(167, 60, 100);
     font-weight: bold;
-    border-style: solid;
-    border-color: black;
     padding-top: 10px;
     padding-left: 20px;
+    box-shadow: 3px 3px;
   }
 
 .more-info{
@@ -152,8 +153,31 @@
 
 .post-man{
   box-shadow: 5px 5px;
+  border-radius: 8px;
 }
 
 .para{
   font-size: 20px
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 0.5px solid;
+  border-color:rgb(53, 53, 53);
+  text-align: left;
+  padding: 10px;
+}
+
+th{
+  background-color: rgb(167, 60, 100);
+  
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
