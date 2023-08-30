@@ -1,7 +1,11 @@
 .main_tittles {
-    color:black;
+    color: white;
     font-size: 50px;
     
+}
+
+body{
+  background-color:black;
 }
 
 .container{
@@ -41,21 +45,6 @@
   padding-left: 20px;
 }
 
-.space{
-  display: grid;
-  grid-template-rows: 50px ;
-  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-  background-color: white;
-
-}
-
-.smaller-space{
-  display: grid;
-  grid-template-rows: 10px ;
-  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-  background-color: white;
-}
-
 .intro-text{
   grid-row-start: 1;
   grid-row-end: 3;
@@ -66,6 +55,73 @@
   padding-top: 10px;
   padding-left: 20px
 }
+
+
+
+
+.number{
+  display: grid;
+  grid-template-rows: 100px 100px 10px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  background-color: rgb(167, 60, 100);
+
+  gap: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  padding-left: 20px;
+
+}
+.number-img{
+  color:black;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.number-text{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 11;
+  color:black;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.space{
+  display: grid;
+  grid-template-rows: 50px ;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  background-color: black;
+
+}
+
+.smaller-space{
+  display: grid;
+  grid-template-rows: 10px ;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  background-color: black;
+}
+
 
 
 .item1{
@@ -141,7 +197,7 @@
 }
 
 .seperator{
-  border-top: 8px solid black;
+  border-top: 8px solid  rgb(167, 60, 100);
   border-radius: 5px;
   width: 20%;
   margin-left: 80px;
@@ -168,7 +224,7 @@ table {
 
 td, th {
   border: 0.5px solid;
-  border-color:rgb(53, 53, 53);
+  border-color: grey;
   text-align: left;
   padding: 10px;
 }
@@ -179,5 +235,9 @@ th{
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #ddd;
+}
+
+td{
+  background-color: white;
 }
