@@ -1,6 +1,8 @@
 .main_tittles {
     color: white;
     font-size: 50px;
+
+    
     
 }
 
@@ -71,6 +73,20 @@ body{
   padding-left: 20px;
 
 }
+
+.footer-container{
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  background-color: rgb(53, 53, 53);
+  gap: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  padding-left: 20px;
+
+}
+
+
 .number-img{
   color:black;
   grid-row-start: 1;
@@ -94,6 +110,17 @@ body{
 }
 
 
+.contact{
+  color:white;
+  grid-column-start: 3;
+  grid-column-end: 8;
+}
+
+.sign-up{
+  color:white;
+  grid-column-start: 8;
+  grid-column-end: 12;
+}
 
 
 
@@ -205,6 +232,7 @@ body{
 
 .look-for{
   font-size: 35px;
+  color: black;
 }
 
 .post-man{
@@ -235,9 +263,17 @@ th{
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color:rgb(53, 53, 53);
 }
 
 td{
-  background-color: white;
+  background-color: rgb(53, 53, 53);
+  color: white;
 }
+
+.specs{
+  color:white;
+  font-size: 35px;
+
+}
+
