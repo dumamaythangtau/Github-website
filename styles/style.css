@@ -24,6 +24,8 @@ body{
     
   }
 
+
+  /* for the introduction */
 .intro{
   display: grid;
   grid-template-rows: 100px 100px 10px;
@@ -74,19 +76,7 @@ body{
 
 }
 
-.footer-container{
-  display: grid;
-  grid-template-rows: 100px;
-  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-  background-color: rgb(53, 53, 53);
-  gap: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px; 
-  padding-left: 20px;
-
-}
-
-
+/* Styling the image and text of gpu no 1,2,3,4,5*/
 .number-img{
   color:black;
   grid-row-start: 1;
@@ -109,7 +99,7 @@ body{
   padding-left: 20px
 }
 
-
+/* For the footer */
 .contact{
   color:white;
   grid-column-start: 3;
@@ -122,18 +112,21 @@ body{
   grid-column-end: 12;
 }
 
+.footer-container{
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  background-color: rgb(53, 53, 53);
+  gap: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  padding-left: 20px;
+
+}
 
 
 
-
-
-
-
-
-
-
-
-
+/* Styling for the spaces */
 .space{
   display: grid;
   grid-template-rows: 50px ;
@@ -151,6 +144,7 @@ body{
 
 
 
+/* Styling for the list of gpu at the near the top of the page */
 .item1{
     color:black;
     grid-row-start: 1;
@@ -223,6 +217,7 @@ body{
   color: blue
 }
 
+/* Main tittle underline */
 .seperator{
   border-top: 8px solid  rgb(167, 60, 100);
   border-radius: 5px;
@@ -230,6 +225,7 @@ body{
   margin-left: 80px;
 }
 
+/* Styling for the images in the introduction */
 .look-for{
   font-size: 35px;
   color: black;
@@ -244,6 +240,9 @@ body{
   font-size: 20px
 }
 
+
+
+/* Styling for the tables */
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
